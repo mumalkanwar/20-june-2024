@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML FORM Design</title>
+        <style>
+            body{
+                font-family:sans-serif;
+                margin:0px;
+                background-image:-webkit-linear-gradient(-45deg,#1E0950,#F8345F);
+            }
+            .a_bluebox{
+                width:80%;
+                height:700px;
+                background-color: #44c3e5;
+                margin:110px auto;
+            }
+            .a_myloginform{
+                width:506px;
+                height:400px;
+                padding:50px;
+                background-color:#fff;
+                margin:auto;
+                position:relative;
+                top:100px;
+                box-shadow:0px 0px 2px 2px rgba(0,0,0,0.2);
+            }
+            .a_myloginform > input{
+                display:block;
+                width: 90%;
+                height:40px;
+                border:1px solid #DDD;
+                margin-bottom:22px;
+            }
+            .a_myloginform > input[type="submit"]{
+                background-color: #44c3e5;
+                color:#fff;
+                font-size:1.5em;
+                width:97%;
+            }
+            .a_myloginform > h1{
+                color:#44c3e5;
+            }
+            .inp{
+                padding-left: 30px;
+                 font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a_bluebox">
+            <form class="a_myloginform">
+              <h1>Login To Your Account</h1>
+              <input class="inp" type="text" name="username" placeholder="username"/>
+              <input class="inp" type="password" name="password" placeholder="password"/>
+              <input type="submit" name="submit" value="Login"/>
+            </form>
+        </div>
+    </body>
+</html>
